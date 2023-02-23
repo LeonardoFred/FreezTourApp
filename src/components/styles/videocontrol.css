@@ -1,0 +1,22 @@
+.video{
+
+
+    background-color: rgb(246, 243, 247);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center ;
+    padding-bottom: 20px;
+    font-size: 20px;
+
+}
+
+iframe {
+
+margin-left: 40px;
+margin-right: 40px;
+background-color:  rgb(219, 166, 235);
+color: white;
+
+}

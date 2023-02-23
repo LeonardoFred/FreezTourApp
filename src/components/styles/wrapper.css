@@ -1,0 +1,24 @@
+.fade-in {
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
+  
+  .fade-in.show {
+    opacity: 1;
+  }
+  
+  .video{
+
+
+    background-color:    rgb(250, 248, 250);
+    color: rgb(52, 1, 68);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center ;
+    font-size: 30px;
+    font-family: system-ui;
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+}

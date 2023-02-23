@@ -1,0 +1,410 @@
+body {
+    margin: 0;
+}
+
+main {
+    margin: 16px;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    
+    background: rgb(52, 1, 68);
+    color: white;
+    font-family: system-ui;
+    font-weight: 300;
+}
+
+.navbar__title {
+    margin-right: auto;
+    font-size: 150%;
+    padding: 12px 16px;
+}
+
+.navbar__item {
+    padding: 16px 16px;
+    cursor: pointer;
+    vertical-align: middle;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(52, 1, 68);
+    color: white;
+  
+
+
+}
+
+.booking-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(52, 1, 68);
+    color: white;
+    margin-top: 0px;
+    padding-top:0px ;
+  
+
+
+}
+
+.claim{
+    background: rgb(52, 1, 68);
+    color: white;
+    margin-top: 0px;
+    padding-top:0px ;
+    font-family: system-ui;   
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 0px;
+    padding-bottom:0px 
+
+
+}
+
+.section_content{
+
+   
+    font-size: 30px;
+    font-family: system-ui;
+    font-weight: 300;
+    padding-top: 0px;
+    margin-top: 0px;
+    padding-bottom: 0px;
+    margin-bottom: 30px;
+    justify-content: center;
+    align-items: center;
+    background: rgb(52, 1, 68);
+    color: white;
+
+
+}
+
+.section_content1{
+    padding-top: 0px;
+    margin-top: 0px;
+    background: rgb(52, 1, 68);
+    color: white;
+    font-size: 15px;
+    font-weight: 300;
+    justify-content: center;
+    align-items: center;
+    font-family: system-ui;
+    display: flex;
+}
+
+.section_content2{
+
+   
+    font-size: 30px;
+    font-family: system-ui;
+    font-weight: 300;
+    padding-top: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    text-align  : center;
+    background-color: rgb(52, 1, 68);
+    color: rgb(252, 252, 252);
+
+
+
+}
+
+.section_content2b{
+
+   
+    font-size: 30px;
+    font-family: system-ui;
+    font-weight: 300;
+    padding-top: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align  : center;
+    background-color:  rgb(219, 166, 235);
+    color: rgb(53, 4, 85);
+
+
+
+}
+
+.section_content2b h1{
+    padding-top: 0px;
+    margin-top: 0px;
+}
+
+.section_content3 {
+
+   
+    font-size: 40px;
+    font-family: system-ui;
+    font-weight: 400;
+    text-align  : center;
+    background: rgb(255, 254, 255);
+    color: rgb(52, 1, 68);
+
+
+
+}
+
+.section_content3b {
+
+   
+    font-size: 40px;
+    font-family: system-ui;
+    font-weight: 400;
+    text-align  : center;
+    background: rgb(255, 254, 255);
+    color: rgb(52, 1, 68);
+
+
+
+}
+
+.section_content3 p  {
+
+    text-align: justify;
+    font-size: 22px;
+    font-family: system-ui;
+    font-weight: 300;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    line-height: 30px;
+}
+
+.section_content4{
+
+   
+    font-size: 20px;
+    font-family: system-ui;
+    font-weight: 300;
+    padding-top: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    text-align  : justify;
+    background-color: rgb(52, 1, 68);
+    color: rgb(245, 242, 247);
+
+
+
+}
+
+.section_content5{
+
+   
+    font-size: 30px;
+    font-family: system-ui;
+    font-weight: 300;
+    padding-top: 0px;
+    margin-top: 0px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    text-align  : center;
+    background: rgb(52, 1, 68);
+    color: white
+
+
+
+}
+
+
+.nav__active{
+    color: red;
+    border-radius: 3px;
+
+}
+
+form {
+
+    margin-top: 20px;
+    padding-top: 20px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    
+} 
+a { color: inherit; } 
+a:link { text-decoration: none; }
+a:visited { text-decoration: none; }
+a:hover { text-decoration: none; }
+a:active { text-decoration: none; }
+
+.destination {
+width: 200px;
+height: 35px;
+border-radius: 4px;
+margin-left: 10px;
+margin-right: 10px;
+
+        
+}
+
+.departure-arrival{
+    width:  150px;
+    height: 35px;
+    border-radius: 4px;
+    font-size: 18px;
+    font-weight: 300;
+    font-family: system-ui;
+   
+
+}
+
+.form-labels
+{
+    margin-right: 20px;
+    padding-right: 20px;
+}
+
+button {
+
+    height: 40px;   
+    width:  80px;
+    margin-left: 13px;  
+    background-color: rgb(232, 229, 235);
+    color: rgb(44, 4, 82);
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 4px;
+
+
+}
+
+.display-cards{
+
+    background-color: blueviolet;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 4px;
+ 
+}
+
+h3{
+
+    font-size: 30px;
+}
+
+@media screen and (max-width: 800px) {
+
+
+    .section_content2{
+
+   
+        font-size: 18px;
+        font-family: system-ui;
+        font-weight: 150;
+        padding-top: 10px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        padding-bottom: 0px;
+        text-align  : center;
+        background-color: rgb(52, 1, 68);
+        color: rgb(252, 252, 252);
+    
+    
+    
+    }
+    
+
+    .section_content3{
+
+        font-size: 18px;
+
+    }
+    
+        .section_content3b{
+
+            font-size: 18px;
+
+}
+
+.section_content3 p  {
+
+    text-align: justify;
+    font-size: 14px;
+    font-family: system-ui;
+    font-weight: 300;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    line-height: 30px;
+}
+
+}
+
+@media screen and (max-width: 620px) {
+
+    .section_content3b{
+
+        display: none;
+    
+    
+    
+    
+    }
+
+
+  }
+    
+
+@media screen and (max-width: 600px) {
+    .navbar__item {
+        padding: 5px 5px;
+        cursor: pointer;
+        vertical-align: middle;
+        font-size: 10px;
+    }
+
+    .section_content2{
+
+   
+        font-size: 15px;
+        font-family: system-ui;
+        font-weight: 150;
+        padding-top: 10px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        padding-bottom: 0px;
+        text-align  : center;
+        background-color: rgb(52, 1, 68);
+        color: rgb(252, 252, 252);
+    
+    
+    
+    }
+    
+
+    .section_content3{
+
+        font-size: 15px;
+
+    }
+    
+        .section_content3b{
+
+            display: 15px;
+        
+    
+    
+    }
+    .section_content3 p  {
+
+        text-align: justify;
+        font-size: 12px;
+        font-family: system-ui;
+        font-weight: 300;
+        padding-bottom: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+        line-height: 30px;
+    }
+
+}
+
+    

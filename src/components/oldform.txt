@@ -1,0 +1,4 @@
+<label>DEPART </label>
+          <input type="date" className="departure-arrival"/>
+          <label className="form-labels1 form-labels"> RETURN </label>
+          <input type="date" className="departure-arrival"/><br/>

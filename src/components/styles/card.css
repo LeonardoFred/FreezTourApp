@@ -1,0 +1,225 @@
+
+
+  
+
+     .container-card {
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        
+        
+
+    }   
+
+    .box {
+        transition: box-shadow .3s;
+        width: 300px;
+        height: 250px;
+        margin: 50px;
+        border-radius:5px;
+        border: 1px solid #ccc;
+        background: #7e24a2;
+        float: left;
+        padding-left: 20px;
+        padding-right: 20px;
+        background-color: rgb(225, 207, 242);
+        margin-left: 20px;
+        margin-right: 20px;
+        font-family: system-ui;
+        font-size: 15px;
+        
+      }
+
+      .div-button {
+
+        text-align: center;
+
+      }
+      .box:hover {
+        box-shadow: 0 0 20px rgba(33,33,33,.2); 
+        background-color: rgb(153, 73, 228);
+        color:#fff; 
+      }
+
+      .button{
+
+        background-color:rgb(191, 142, 237);
+        color:white;
+        border-style: none;
+        width: 100px;
+        margin-bottom: 8px;
+     
+        
+
+      }
+
+
+      .hover-1 {
+        background: linear-gradient(#b241e7 0 0) var(--p, 0) / var(--p, 0) no-repeat;
+        transition: .4s, background-position 0s;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-bottom: 20px;
+        font-family: system-ui;
+        font-size: 15px;
+        padding-left: 15px;
+        padding-right: 15px;
+        border-radius:5px;
+        background-color: rgb(230, 213, 244);
+        text-align: justify;
+
+        
+      }
+      .hover-1:hover {
+        --p: 100%;
+        color: #fff;
+      }
+
+      .button:hover{
+
+        background-color:rgb(99, 10, 183);
+        color:white;
+        border: solid, white;
+        
+
+
+      }
+
+     .h3-tour {
+
+     font-size: 16px;
+
+     }
+
+     .div-button {
+
+      text-align: center
+     
+    }
+
+    @media screen and (max-width: 1220px) {
+      
+      .h3-tour {
+
+        font-size: 13px;
+   
+        }
+
+        
+      .hover-1 {
+        background: linear-gradient(#b241e7 0 0) var(--p, 0) / var(--p, 0) no-repeat;
+        transition: .4s, background-position 0s;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-bottom: 20px;
+        font-family: system-ui;
+        font-size: 12px;
+        padding-left: 15px;
+        padding-right: 15px;
+        border-radius:5px;
+        background-color: rgb(230, 213, 244);
+        
+      }
+
+    }
+
+    @media screen and (max-width: 830px) {
+      
+      .h3-tour {
+
+        font-size: 11px;
+   
+        }
+
+        
+      .hover-1 {
+        background: linear-gradient(#b241e7 0 0) var(--p, 0) / var(--p, 0) no-repeat;
+        transition: .4s, background-position 0s;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-bottom: 20px;
+        font-family: system-ui;
+        font-size: 10px;
+        padding-left: 15px;
+        padding-right: 15px;
+        border-radius:5px;
+        background-color: rgb(230, 213, 244);
+        
+      }
+
+    }
+
+    @media screen and (max-width: 730px) {
+      
+      .h3-tour {
+
+        font-size: 11px;
+   
+        }
+
+        
+      .hover-1 {
+        background: linear-gradient(#b241e7 0 0) var(--p, 0) / var(--p, 0) no-repeat;
+        transition: .4s, background-position 0s;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-bottom: 20px;
+        font-family: system-ui;
+        font-size: 10px;
+        padding-left: 15px;
+        padding-right: 15px;
+        border-radius:5px;
+        background-color: rgb(230, 213, 244);
+        
+      }
+
+    }
+
+  
+
+
+  @media screen and (max-width: 720px) {
+    
+    .h3-tour {
+
+      font-size: 13px;
+ 
+      }
+
+      
+    .hover-1 {
+      background: linear-gradient(#b241e7 0 0) var(--p, 0) / var(--p, 0) no-repeat;
+      transition: .4s, background-position 0s;
+      margin-left: 8px;
+      margin-right: 8px;
+      margin-bottom: 20px;
+      font-family: system-ui;
+      font-size: 12px;
+      padding-left: 8px;
+      padding-right: 8px;
+      border-radius:5px;
+      background-color: rgb(230, 213, 244);
+      
+    }
+
+    .container-card {
+
+      display: flex;
+      flex-direction: column;
+
+ }
+
+
+ .button{
+
+  background-color:rgb(191, 142, 237);
+  color:white;
+  border-style: none;
+  width: 100px;
+  
+
+}}
+
+ 

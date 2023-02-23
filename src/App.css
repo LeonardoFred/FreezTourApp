@@ -1,0 +1,8 @@
+.not_found {
+    text-align: center;
+  }
+  
+  .not_found::before {
+    content: "😕";
+    margin-right: 0.35em;
+  }

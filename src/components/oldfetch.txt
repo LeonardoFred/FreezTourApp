@@ -1,0 +1,11 @@
+<div className = "App">
+			 {
+				items.map((item) => (
+				<ol key = { item.id } >
+					Code: { item.code },
+					SeatNumber: { item.seatnumber },
+					Description: { item.description }
+					</ol>
+				))
+			}
+		</div>

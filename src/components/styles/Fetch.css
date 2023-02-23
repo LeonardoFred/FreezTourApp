@@ -1,0 +1,32 @@
+.section_fetch{
+
+   
+    font-size: 20px;
+    font-family: system-ui;
+    font-weight: 200;
+    padding-top: 20px;
+    margin-top: 0px;
+    padding-bottom: 20px;
+    margin-bottom: 0px;
+    text-align  : center;
+    background:  rgb(52, 1, 68);
+    color: rgb(245, 242, 245);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    
+
+
+
+}
+
+table{
+
+width: 1200px;
+
+}
+
+button {
+
+    width: 100px;
+}

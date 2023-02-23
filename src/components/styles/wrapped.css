@@ -1,0 +1,25 @@
+
+
+  .video{
+
+
+    background-color:    rgb(250, 248, 250);
+    color: rgb(52, 1, 68);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center ;
+    font-size: 30px;
+    font-family: system-ui;
+    padding-top: 20px;
+ 
+
+}
+
+iframe {
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    
+    }
