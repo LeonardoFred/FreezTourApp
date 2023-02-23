@@ -1,2 +1,3 @@
-# FreezTourApp
-Application to TourOperator
+# Setup
+
+npm install react-router-dom
