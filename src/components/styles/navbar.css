@@ -9,31 +9,62 @@ main {
 .navbar {
     display: flex;
     align-items: center;
-    
     background: rgb(52, 1, 68);
     color: white;
     font-family: system-ui;
     font-weight: 300;
+    justify-content: space-between;
+
+}
+
+.navbar1 {
+    display: flex;
+    background: rgb(52, 1, 68);
+    color: white;
+    font-family: system-ui;
+    font-weight: 300;
+    justify-content: space-between;
 }
 
 .navbar__title {
     margin-right: auto;
     font-size: 150%;
     padding: 12px 16px;
+    
+   
 }
 
+.navbar__title1 {
+    margin-right: auto;
+    font-size: 150%;
+    padding: 12px 16px;
+    
+    
+   
+}
 .navbar__item {
     padding: 16px 16px;
     cursor: pointer;
     vertical-align: middle;
+    justify-content:end;
+    
+ 
+    
 }
+
+.logo{
+
+display: flex !important;
+
+}
+
 
 .container{
     display: flex;
-    justify-content: center;
     align-items: center;
     background: rgb(52, 1, 68);
     color: white;
+    justify-content: center;
   
 
 
@@ -61,7 +92,9 @@ main {
     font-weight: 300;
     text-align: center;
     margin-bottom: 0px;
-    padding-bottom:0px 
+    padding-bottom:0px;
+   
+    
 
 
 }
@@ -171,10 +204,47 @@ main {
     font-size: 22px;
     font-family: system-ui;
     font-weight: 300;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
     padding-left: 20px;
     padding-right: 20px;
     line-height: 30px;
+}
+
+.section_content3c  {
+
+    text-align: justify;
+    font-size: 16px;
+    font-family: system-ui;
+    font-weight: 300;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    line-height: 30px;
+}
+
+.section_content3flex  {
+
+    text-align: justify;
+    font-size: 16px;
+    font-family: system-ui;
+    font-weight: 300;
+    padding-left: 20px;
+    padding-right: 20px;
+    line-height: 30px;
+    margin-left: 20px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+.section_content3flex-display  {
+
+ display: flex;
+justify-content: center;
+margin-bottom: 0px;
+padding-bottom: 0px;
+
+
 }
 
 .section_content4{
